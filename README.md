@@ -1,6 +1,4 @@
-# Let's create a README.md file with the provided content and save it for download.
-
-readme_content = """# Express.js Letter Counter App
+# Express.js Letter Counter App
 
 A simple Express.js application that counts the total number of letters in a user's first and last names. 
 This application demonstrates the use of Express.js, EJS for templating, and body-parser for handling form data.
@@ -53,10 +51,3 @@ To get started with this application, follow these steps:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 """
-
-# Save the README content to a file
-readme_file_path = "/mnt/data/README.md"
-with open(readme_file_path, "w") as file:
-    file.write(readme_content)
-
-readme_file_path
